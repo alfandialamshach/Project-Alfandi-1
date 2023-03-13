@@ -9,13 +9,13 @@ string status(double d){
     if (d >= 60)
     return "lulus";
     else
-    return "gagal";
+    return "tidak lulus";
 }
 string status2(double r, double n){
     if (r >= 60 && n >= 70)
     return "lulus";
     else
-    return "gagal";
+    return "tidak lulus";
 }
 int main()
 {
